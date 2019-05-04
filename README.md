@@ -2,6 +2,8 @@
 
 This was an attempt to bring a React Hooks article over to ReasonReact-land.  I'm hoping to add in Effect and Reducer hooks.  Along with possibly some custome hooks.
 
+### [Code Demo](https://danbowles.github.io/reasonreact-hooks/)
+
 ## Run Project
 
 ```sh
