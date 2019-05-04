@@ -83,7 +83,11 @@ function App(Props) {
                               src: getBookImg(book[/* id */0])
                             }), React.createElement("h3", undefined, book[/* meta */1][/* title */0]), React.createElement("p", undefined, book[/* meta */1][/* publishedDate */1])));
         }), match$1[0]);
-  return React.createElement("section", undefined, React.createElement("form", {
+  return React.createElement("section", undefined, React.createElement("a", {
+                  title: "Hooks Repo",
+                  href: "https://github.com/danbowles/reasonreact-hooks",
+                  target: "_blank"
+                }, "Github Repo"), React.createElement("form", {
                   action: "?"
                 }, React.createElement("label", undefined, React.createElement("h1", undefined, "Search for Books"), React.createElement("input", {
                           placeholder: "microservice, restful, etc",

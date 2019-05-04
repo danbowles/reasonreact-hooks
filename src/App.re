@@ -77,6 +77,9 @@ let make = () => {
   );
 
   <section>
+    <a href="https://github.com/danbowles/reasonreact-hooks" title="Hooks Repo" target="_blank">
+      {str("Github Repo")}
+    </a>
     <form action="?">
       <label>
         <h1>{ReasonReact.string("Search for Books")}</h1>
